@@ -12,7 +12,7 @@ https://github.com/miolab/docker_memo_to_self.git
 - Win10 pro
 - Docker Toolbox
   - Hyper-V抜き + Docker Quickstart Terminal  
-    (現WinPCではDocker Windosでは重かったため)
+    (現WinPCではDocker Windowsでは重かったため)
 
 ### バージョン確認
 
