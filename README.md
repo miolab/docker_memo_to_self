@@ -26,7 +26,7 @@ Docker version 18.03.0-ce, ...
 
 ## Docker Image
 
-- コンテナ実行に必要なファイルをまとめたもの。
+- コンテナ実行に必要なファイルをまとめたもの（= ファイルシステム）。
 - `$ docker run image_hoge` とかでDockerHubから取ってくる。
   - すでにイメージ持ってたら即実行。DockerHubを見に行くプロセスは省略される。
 
@@ -39,4 +39,12 @@ Docker version 18.03.0-ce, ...
 - docker start   コンテナの起動
 
 ### `$ docker images`
+
 imageの一覧を取得して表示。
+
+### `$ docker rmi hoge_image_name`
+
+imageを削除。
+
+- 強制削除するなら、`rmi -f`
+
