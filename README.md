@@ -2,10 +2,10 @@
 
 https://github.com/miolab/docker_memo_to_self.git
 
-## Docker 備忘録
+## Docker チートシート
 
-* 自分用メモ
-* Docker雰囲気で使ってる感があったので、整理しなおすことが目的
+* 自分用メモ。
+* Docker雰囲気で使ってる感があったので、整理も兼ねて。
 
 ### 環境
 
