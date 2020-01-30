@@ -11,7 +11,7 @@ https://github.com/miolab/docker_memo_to_self.git
 
 - Win10 pro
 - Docker Toolbox
-  - Hyper-V抜き + Docker Quickstart Terminal  
+  - Hyper-V抜き + Docker Quickstart Terminal
 
 ### バージョン確認
 
@@ -40,6 +40,10 @@ Docker version 18.03.0-ce, ...
 ### `$ docker images`
 
 imageの一覧を取得して表示。
+
+### `$ docker inspect hoge_image_name`
+
+詳細情報を表示。
 
 ### `$ docker rmi hoge_image_name`
 
