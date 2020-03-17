@@ -4,22 +4,24 @@ https://github.com/miolab/docker_memo_to_self.git
 
 ## Docker チートシート
 
-* 自分用メモ。
-* Docker雰囲気で使ってる感があったので、整理も兼ねて。
+### 環境 / バージョン確認
 
-### 環境
+- Mac
+  - Docker Desktop for Mac
+    - インストール： `brew install docker`
+  ```
+  $ docker -v
+  Docker version 19.03.8, ...
+  ```
 
-- Win10 pro
-- Docker Toolbox
-  - Hyper-V抜き + Docker Quickstart Terminal
 
-### バージョン確認
-
-```
-$ docker -v
-
-Docker version 18.03.0-ce, ...
-```
+- Win (10 pro)
+  - Docker Toolbox
+    - Hyper-V抜き + Docker Quickstart Terminal
+  ```
+  $ docker -v
+  Docker version 18.03.0-ce, ...
+  ```
 
 ---
 
