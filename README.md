@@ -7,28 +7,48 @@ https://github.com/miolab/docker_memo_to_self.git
 ### 環境 / バージョン確認
 
 - Mac
+
   - Docker Desktop for Mac
-    - インストール： `brew install docker`
-  ```
-  $ docker -v
-  Docker version 19.03.8, ...
-  ```
+
+    ```
+    $ docker -v
+    Docker version 19.03.8, ...
+    ```
 
 
 - Win (10 pro)
+
   - Docker Toolbox
+
     - Hyper-V抜き + Docker Quickstart Terminal
-  ```
-  $ docker -v
-  Docker version 18.03.0-ce, ...
-  ```
+
+    ```
+    $ docker -v
+    Docker version 18.03.0-ce, ...
+    ```
+
+### Docker Desktop for Macのインストール
+
+```
+$ brew install docker
+
+$ brew cask install docker
+
+$ open /Applications/Docker.app
+```
+
+- `brew cask install` がうまく通らない場合は、  
+`brew update-reset && brew update` で一度アップデートしなおす。
+
 
 ---
 
 ## Docker Image
 
 - コンテナ実行に必要なファイルをまとめたもの（= ファイルシステム）。
+
 - `$ docker run image_hoge` とかでDockerHubから取ってくる。
+
   - すでにイメージ持ってたら即実行。DockerHubを見に行くプロセスは省略される。
 
 ### `$ docker run`
